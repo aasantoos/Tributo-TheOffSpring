@@ -6,7 +6,7 @@ html{
     max-width: 1100px;
     background-color: #fff;
     position: relative; 
-    margin: 200px auto;
+    margin: 50px auto;
     padding: 20px 50px;
 }
 
@@ -40,3 +40,32 @@ html{
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
 }
+
+/* Quotes */
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+/* curiosidades */
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li{
+    height: 30px;
+}
+    
